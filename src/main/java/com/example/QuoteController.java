@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by markheckler on 6/16/16.
  */
 @RestController
-class QuoteController {
+public class QuoteController {
     @Autowired
     QuoteRepository quoteRepository;
 

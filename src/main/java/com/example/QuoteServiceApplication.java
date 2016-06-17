@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableBinding(Sink.class)
+//@EnableBinding(Sink.class)
 public class QuoteServiceApplication {
     @Bean
     @Autowired

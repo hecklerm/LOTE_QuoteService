@@ -13,9 +13,9 @@ public class MessageProcessor {
     @Autowired
     QuoteRepository quoteRepository;
 
-    @StreamListener(Sink.INPUT)
-    void addNewQuote(Quote quote) {
-        quoteRepository.save(quote);
-        System.out.println(quote.toString());
-    }
+//    @StreamListener(Sink.INPUT)
+//    void addNewQuote(Quote quote) {
+//        quoteRepository.save(quote);
+//        System.out.println(quote.toString());
+//    }
 }
